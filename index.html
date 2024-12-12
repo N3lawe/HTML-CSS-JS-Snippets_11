@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&#038;display=swap"
+    />
+    <!-- js animetion -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Task 14</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <a href="index.html">
+              <img src="images/logo.svg" class="logo" alt="logo"
+            /></a>
+            <button title="btn" class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#slider" class="scroll-link">slider</a>
+              </li>
+              <li>
+                <a href="Tic Tac Toe.html" class="scroll-link" target="_blank"
+                  >game</a
+                >
+              </li>
+              <li>
+                <a href="#clock" class="scroll-link">clock</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end header -->
+    <!-- Sliding Animation section -->
+    <section id="slider">
+      <div class="content">
+        <div class="slider-wrapper">
+          I can write
+          <div class="slider">
+            <div class="slider-text1">HTML</div>
+            <div class="slider-text2">CSS</div>
+            <div class="slider-text3">PHP</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Sliding Animation section -->
+    <!-- Clock section -->
+    <section id="clock">
+      <div class="clock">
+        <div class="hand hour" data-hour-hand></div>
+        <div class="hand minute" data-minute-hand></div>
+        <div class="hand second" data-second-hand></div>
+        <div class="number number1">1</div>
+        <div class="number number2">2</div>
+        <div class="number number3">3</div>
+        <div class="number number4">4</div>
+        <div class="number number5">5</div>
+        <div class="number number6">6</div>
+        <div class="number number7">7</div>
+        <div class="number number8">8</div>
+        <div class="number number9">9</div>
+        <div class="number number10">10</div>
+        <div class="number number11">11</div>
+        <div class="number number12">12</div>
+      </div>
+    </section>
+    <!-- End Clock section -->
+    <!-- footer section -->
+    <footer class="footer_section">
+      <div class="container">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved by
+          <a href="index.html">Mohannad Ali</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- end footer section -->
+    <!-- js file -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
